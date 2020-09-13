@@ -14,10 +14,12 @@
   .my-navbar-customer .nav-item:hover .nav-link {
     color: black;
   } */
+  
 body {
   background-image: url("../assets/ignasi_pattern_s.png");
   background-attachment: fixed;
   background-repeat: repeat;
+  font-family:"Georgia", serif;
   
 }
   .navbar-brand{
@@ -96,7 +98,7 @@ body {
 
 #form-header {
   color: rgb(74,170,165);
-  font-family:"Georgia", serif;
+  
   font-weight: bold;
   font-size: 42px;
 }
@@ -119,4 +121,26 @@ body {
   }
   .form-control {
     border-radius: 0;
+  }
+
+ #img-gallery {
+   margin-right: 400px ;
+ } 
+#gallery-header{
+  padding-left: 20px;
+  color: rgb(74,170,165);
+
+}
+
+#img-gallery p:after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid rgb(241, 241, 241);
+  padding-top: 20px;
+}
+.row {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
