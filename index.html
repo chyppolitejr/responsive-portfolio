@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Responsive Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -22,17 +22,17 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="index.html">Claude Hyppolite Jr</a>
+      <div class="navbar-brand" ><h1>Claude Hyppolite Jr</h1></div>
 
       <!-- Collapse button -->
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#basicExampleNav"
-        aria-controls="basicExampleNav"
+        data-target="#my-navbar-custom"
+        aria-controls="my-navbar-custom"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
@@ -40,14 +40,12 @@
       </button>
 
       <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="basicExampleNav">
+      <div class="collapse navbar-collapse" id="my-navbar-custom">
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li> -->
+          <!-- <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a> -->
+        </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
@@ -55,7 +53,7 @@
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="index.html">About</a>
           </li>
         </ul>
         <!-- Links -->
@@ -63,6 +61,19 @@
     </nav>
     <!--/.Navbar-->
 
+    <section class="container-fluid">
+        <div class="row">
+          <div class="col-sm-1"></div>
+            <div class="col-md-8">
+            <h1> About Me</h1>
+            <img class="float-left" src="http://lorempixel.com/output/people-q-c-150-150-1.jpg" alt="picture of random person">
+            <p class="text-left"> 
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident tenetur ratione sed at enim placeat sunt hic quisquam, sint impedit vero velit numquam. Officiis, nemo. Magni voluptates officia ratione eligendi et cumque voluptate est tempora iste beatae, doloremque totam recusandae vero quos reiciendis excepturi laudantium ipsam accusantium voluptas, hic accusamus corrupti voluptatem quia. Beatae porro minima a obcaecati blanditiis quae, vitae et, aspernatur saepe asperiores similique praesentium quibusdam commodi id repellat rerum magni ex ipsa quasi adipisci? Amet molestias quam doloremque a doloribus nisi magnam aliquam voluptatibus! Tempore magnam ipsum repellendus ea fuga modi quae, odio dolore in veniam voluptatum, neque repudiandae autem eos, ipsa impedit qui eligendi quasi corporis accusamus facilis incidunt? Autem voluptatum vel unde enim cupiditate facilis exercitationem labore aliquam aspernatur, quasi delectus reiciendis! Aspernatur quam optio voluptates quo, officia minima iusto ratione incidunt amet. Vero est ab labore. Nihil molestiae maiores praesentium impedit autem iste voluptate!
+            </p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia sapiente culpa dicta ducimus facere rerum delectus veritatis libero? Vel rem accusamus voluptatum fugiat blanditiis animi similique explicabo eum illo, neque consectetur velit maiores consequuntur iure perspiciatis facere nam nostrum sapiente fuga totam eos atque hic commodi. Tempore, odio nemo?</p>
+            </div>  
+      </div>
+    </section>
     <!-- footer begins here -->
     <footer class="footer">
       <div class="container">
@@ -70,8 +81,7 @@
           Copyright &copy;
           <script>
             document.write(new Date().getFullYear());
-          </script></span
-        >
+          </script></span>
       </div>
     </footer>
     <!-- ./end footer -->
