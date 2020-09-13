@@ -23,6 +23,7 @@ body {
   .navbar-brand{
     background-color: rgb(74, 170, 165);
     color: white !important;
+    font-family: "Times New Roman", Times, serif;
   }
 
  .navbar-nav.ml-auto li a {
@@ -93,10 +94,29 @@ body {
   padding-left: 20px; */
 }
 
-form h1 {
+#form-header {
   color: rgb(74,170,165);
+  font-family:"Georgia", serif;
+  font-weight: bold;
+  font-size: 42px;
 }
+
+#form-header:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 2px solid rgb(241, 241, 241);
+  padding-top: 20px;
+}
+
+
   .btn-primary{
     background-color: rgb(74,170,165);
     border-color: rgb(74,170,165);
+    border-radius: 0px;
+    padding: 15px 35px;
+  }
+  .form-control {
+    border-radius: 0;
   }
