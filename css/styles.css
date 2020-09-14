@@ -38,11 +38,24 @@ body {
 
   }
   
-  .col-md-8 {
+  .col-md-5 {
     border: 1px solid black;
     background-color: white;
   }
- 
+  /* header text color */
+ .col-md-5 h1{
+   color: rgb(74, 170, 165)
+ }
+
+ /* border under about me header */
+ #about-me:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 2px solid rgb(241, 241, 241);
+  padding-top: 20px;
+}
  section img {
    /* float: left !important; */
    padding-bottom: 30px;
