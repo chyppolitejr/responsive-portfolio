@@ -132,10 +132,10 @@ body {
 
 }
 
-#img-gallery p:after {
+#img-gallery h1:after {
   content: "";
   display: block;
-  width: 100%;
+  width: 60%;
   border-bottom: 2px solid rgb(241, 241, 241);
   padding-top: 20px;
 }
