@@ -138,6 +138,7 @@ body {
 
  #img-gallery {
    margin-right: 400px ;
+   margin-bottom: 50px;
  } 
 #gallery-header{
   padding-left: 20px;
@@ -148,7 +149,7 @@ body {
 #img-gallery h1:after {
   content: "";
   display: block;
-  width: 60%;
+  width: 65%;
   border-bottom: 2px solid rgb(241, 241, 241);
   padding-top: 20px;
 }
